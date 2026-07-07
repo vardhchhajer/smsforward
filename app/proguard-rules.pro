@@ -1,0 +1,12 @@
+-keep class com.example.smsforwarderpro.data.local.db.** { *; }
+-keep class com.example.smsforwarderpro.domain.model.** { *; }
+-keep class com.example.smsforwarderpro.domain.usecase.** { *; }
+-keep class dagger.hilt.** { *; }
+-keep class javax.mail.** { *; }
+-keep class com.sun.mail.** { *; }
+-keep class com.sun.activation.** { *; }
+-dontwarn javax.activation.**
+-dontwarn javax.mail.**
+-dontwarn com.sun.mail.**
+-dontwarn com.sun.activation.**
+-dontwarn com.google.errorprone.annotations.**
